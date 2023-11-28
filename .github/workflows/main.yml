@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Upload data
-        uses: ./actions/sn-dc-upload-file/upload_file # Uses an action in the root directory
+        uses: ./actions/sn-dc-upload-file # Uses an action in the root directory
          id: upload
          with:
            instance-url: ${{ secrets.SN_INSTANCE }}
