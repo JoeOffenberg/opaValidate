@@ -1,0 +1,204 @@
+{"result": {
+    "ADVANCED_SYNTHETIC": "Advanced Synthetic",
+    "APPLICATION_LOGGING": "Application Logging",
+    "APPLICATION_PERFORMANCE_MONITORING": "Application Performance Monitoring (APM)",
+    "INFRASTRUCTURE_MONITORING": "Infrastructure Monitoring",
+    "REAL_USER_MONITORING": "Real User Monitoring (RUM)",
+    "SIMPLE_SYNTHETIC": "Simple Synthetic",
+    "advanced_synthetic_new_monitoring": false,
+    "advanced_synthetic_required": false,
+    "apm_new_monitoring": false,
+    "apm_required": false,
+    "application_logging_new_monitoring": false,
+    "application_logging_required": false,
+    "fail_flag": "FAILURE",
+    "infra_required": false,
+    "infrastructure_new_monitoring": false,
+    "is_api_endpoint": false,
+    "is_atc_enabling_service": false,
+    "is_batch_etl": false,
+    "is_bot_automation": false,
+    "is_distributed": false,
+    "is_mainframe": false,
+    "is_private_cloud": false,
+    "is_vendor_3rd_party_api_endpoint": false,
+    "is_vendor_3rd_party_iaas": false,
+    "is_vendor_3rd_party_paas": false,
+    "is_vendor_3rd_party_saas": false,
+    "operating_platform_set": false,
+    "operating_platform_types": {
+        "API/EndPoint": [
+            {
+                "display_value": "API/EndPoint",
+                "value": "3bff5cd4db34a150e7cfa04913961969"
+            }
+        ],
+        "BOT Automation": [
+            {
+                "display_value": "BOT Automation",
+                "value": "fb20a094db34a150e7cfa04913961968"
+            }
+        ],
+        "Batch/ETL": [
+            {
+                "display_value": "Batch/ETL",
+                "value": "1020a018db34a150e7cfa0491396190f"
+            }
+        ],
+        "Distributed": [
+            {
+                "display_value": "Distributed",
+                "value": "c630a094db34a150e7cfa0491396196b"
+            }
+        ],
+        "Mainframe": [
+            {
+                "display_value": "Mainframe",
+                "value": "b316840bdbd24c50abcafb5aaf96191c"
+            }
+        ],
+        "Private Cloud": [
+            {
+                "display_value": "Private Cloud",
+                "value": "71406cd4db34a150e7cfa0491396198f"
+            }
+        ],
+        "Vendor/3rd Party - API/EndPoint": [
+            {
+                "display_value": "Vendor/3rd Party - API/EndPoint",
+                "value": "7770a094db34a150e7cfa0491396195e"
+            }
+        ],
+        "Vendor/3rd Party - IaaS": [
+            {
+                "display_value": "Vendor/3rd Party - IaaS",
+                "value": "20606894db34a150e7cfa04913961934"
+            }
+        ],
+        "Vendor/3rd Party - PaaS": [
+            {
+                "display_value": "Vendor/3rd Party - PaaS",
+                "value": "0360e818db34a150e7cfa049139619af"
+            }
+        ],
+        "Vendor/3rd Party - SaaS": [
+            {
+                "display_value": "Vendor/3rd Party - SaaS",
+                "value": "dd70e818db34a150e7cfa04913961940"
+            }
+        ]
+    },
+    "passes_advanced_synthetic": false,
+    "passes_api_endpoint": false,
+    "passes_apm": false,
+    "passes_application_logging": false,
+    "passes_batch_etl": false,
+    "passes_bot_automation": false,
+    "passes_distributed": false,
+    "passes_infra": false,
+    "passes_mainframe": false,
+    "passes_private_cloud": false,
+    "passes_rum": false,
+    "passes_simple_synthetic": false,
+    "passes_vendor_3rd_party_api_endpoint": false,
+    "passes_vendor_3rd_party_iaas": false,
+    "passes_vendor_3rd_party_paas": false,
+    "passes_vendor_3rd_party_saas": false,
+    "rum_new_monitoring": false,
+    "rum_required": false,
+    "simple_synthetic_new_monitoring": false,
+    "simple_synthetic_required": false,
+    "violation": [
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Access to care is set to: false",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Assignment Group set",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Business Application set",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Business Criticality set: 4 - not critical",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Data Classification set and valid: Internal",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Install Status is set: Installed",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Managed By set",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Name set: Adjudicator - Production",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Not associated with an enabling service",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Operating Platform has no value. The operation platform can be updated via self service by a member of the assignment group. Or, you can submit a service request via: https://cigna.service-now.com/esp?id=sc_cat_item&sys_id=a541294fdb7ac410abcafb5aaf9619cb",
+            "status": "WARNING"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Short Description is set: The Adjudicator is a CI/CD pipeline compliance automation engine designed to intake compliance goals (Articles) and requirements (Statements) and generate a compliance document (Contract) specific to your application, retrieve data and verify the contract.",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Application Service",
+            "message": "Used For is set to production",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: CMDB",
+            "message": "Application grouping is set to: Group 2 - IT owned and maintained",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Observability",
+            "message": "EOCC Dashboard is not set. Please refer to the following link to check if you are meeting Operations monitoring standards: https://confluence.sys.cigna.com/display/CIF/Operational+Readiness+Monitoring+Standards+and+Requests#6956749110ff05d8b82774cfa999e5f4dd1559d71",
+            "status": "WARNING"
+        },
+        {
+            "article": "Ops Readiness: Support Enablement",
+            "message": "AS has at least one related KB article",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Support Enablement",
+            "message": "AS has the assignment group PipelineAutomation which has an on-call rotation set to active",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Support Enablement",
+            "message": "Application has at least 1 relationship to a downstream service.",
+            "status": "SUCCESS"
+        },
+        {
+            "article": "Ops Readiness: Support Enablement",
+            "message": "DR RTO Tier set: Tier 5 (>120 hours)",
+            "status": "SUCCESS"
+        }
+    ]
+}
+}
