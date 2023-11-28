@@ -1,0 +1,29 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: validateOPA
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    name: Upload file to Devops Config
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Upload data
+        uses: ./actions/sn_devops/upload_folder # Uses an action in the root directory
+         id: upload
+         with:
+           instance-url: ${{ secrets.SN_INSTANCE }}
+           devops-integration-user-name: ${{ secrets.SN_USER }}
+           devops-integration-user-password: ${{ secrets.SN_PASSWORD }}
+           application: "opa"
+           target: "deployable"
+           recursive: true
+           data-format: "json"
+           auto-validate: true
+           publish-option: "publish_valid"
+           name-path: "application_1"
