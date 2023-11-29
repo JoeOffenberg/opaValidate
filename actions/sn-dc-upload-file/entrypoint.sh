@@ -99,7 +99,7 @@ function upload()
         echo "Uploading with changeset ${10}"
         request_url="${request_url}&changesetNumber=${10}"
       fi
-      echo "file: $9"
+      echo "file: $6 $7 $8 $9 ${10}"
       file=$9
       application=$3
       ;;
