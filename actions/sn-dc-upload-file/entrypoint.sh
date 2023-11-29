@@ -123,7 +123,7 @@ target=$5
 target_name=$6
 
 echo "Starting execution with target ${target} and target name ${target_name}"
-echo "$3 $4 $5 $6 $4 $8 "true" $9 ${10} ${11} $7 ${12}"
+echo "$9"
 
 if [[ $# -eq 12 ]] && [[ ${12} != "" ]]; then
   upload $5 $6 $4 $8 "true" $9 ${10} ${11} $7 ${12}
