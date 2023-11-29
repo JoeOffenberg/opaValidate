@@ -99,6 +99,7 @@ function upload()
         echo "Uploading with changeset ${10}"
         request_url="${request_url}&changesetNumber=${10}"
       fi
+      echo "file: $9"
       file=$9
       application=$3
       ;;
@@ -123,7 +124,7 @@ target=$5
 target_name=$6
 
 echo "Starting execution with target ${target} and target name ${target_name}"
-echo "$9"
+
 
 if [[ $# -eq 12 ]] && [[ ${12} != "" ]]; then
   upload $5 $6 $4 $8 "true" $9 ${10} ${11} $7 ${12}
