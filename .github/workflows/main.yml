@@ -24,7 +24,6 @@ jobs:
           target: "deployable"
           target-name: "Production_1"
           filename: "adjudicator-example.json"
-          recursive: true
           data-format: "json"
           auto-validate: true
           publish-option: "publish_valid"
