@@ -8,7 +8,7 @@
     "advanced_synthetic_new_monitoring": false,
     "advanced_synthetic_required": false,
     "apm_new_monitoring": false,
-    "apm_required": false,
+    "apm_required": true,
     "application_logging_new_monitoring": false,
     "application_logging_required": false,
     "fail_flag": "FAILURE",
