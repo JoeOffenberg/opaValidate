@@ -13,19 +13,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Upload data
-        uses: ./actions/sn-dc-upload-file # Uses an action in the root directory
-         id: upload
-         with:
-           instance-url: ${{ secrets.SN_INSTANCE }}
-           devops-integration-user-name: ${{ secrets.SN_USER }}
-           devops-integration-user-password: ${{ secrets.SN_PASSWORD }}
-           application: "corpsite"
-           target: "deployable"
-           target-name: "Production_1"
-           filename: "adjudicator-example.json"
-           recursive: true
-           data-format: "json"
-           auto-validate: true
-           publish-option: "publish_valid"
-           name-path: ""
+      - name: Upload
+        uses: actions/sn-dc-upload-file 
+        id: upload
+        with:
+          instance-url: ${{ secrets.SN_INSTANCE }}
+          devops-integration-user-name: ${{ secrets.SN_USER }}
+          devops-integration-user-password: ${{ secrets.SN_PASSWORD }}
+          application: "corpsite"
+          target: "deployable"
+          target-name: "Production_1"
+          filename: "adjudicator-example.json"
+          recursive: true
+          data-format: "json"
+          auto-validate: true
+          publish-option: "publish_valid"
+          name-path: ""
