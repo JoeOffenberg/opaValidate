@@ -20,7 +20,7 @@ jobs:
           instance-url: ${{ secrets.SN_INSTANCE }}
           devops-integration-user-name: ${{ secrets.SN_USER }}
           devops-integration-user-password: ${{ secrets.SN_PASSWORD }}
-          application: "corpsite"
+          application: "Corpsite"
           target: "deployable"
           target-name: "Production_1"
           filename: "adjudicator-example.json"
