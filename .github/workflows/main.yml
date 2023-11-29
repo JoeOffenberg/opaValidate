@@ -23,7 +23,7 @@ jobs:
           application: "Corpsite"
           target: "deployable"
           target-name: "Production_1"
-          filename: "adjudicator-example.json"
+          filename: "./adjudicator-example.json"
           data-format: "json"
           auto-validate: true
           publish-option: "publish_valid"
