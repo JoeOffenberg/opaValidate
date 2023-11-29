@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Upload
-        uses: actions/sn-dc-upload-file 
+        uses: ./actions/sn-dc-upload-file 
         id: upload
         with:
           instance-url: ${{ secrets.SN_INSTANCE }}
