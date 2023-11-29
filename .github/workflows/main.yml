@@ -4,6 +4,7 @@
 name: validateOpa
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
